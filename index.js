@@ -15,7 +15,7 @@ document.addEventListener("keydown", function (e) {
   });
 
 
-
+//moves dodger 
   function moveDodgerRight() {
     const leftNumbers = dodger.style.left.replace("px", "");
     const left = parseInt(leftNumbers, 10);
@@ -30,3 +30,5 @@ document.addEventListener("keydown", function (e) {
       moveDodgerRight();
     }
   });
+
+  //def resubmission 
